@@ -1,2 +1,4 @@
+import { displayMoods } from "./moods.js"
+const container = document.getElementById("container")
 
-const container = document.querySelector('.container')
+let showMoods = displayMoods(container)
